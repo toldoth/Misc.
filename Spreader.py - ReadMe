@@ -1,0 +1,4 @@
+Spreads a script across all sub directories including the ones
+below those and so on, should work on windows but only tested
+on linux. Most of the code came from a stack overflow here- 
+https://stackoverflow.com/questions/37644441/python-run-script-in-all-subdirectories#37644569
