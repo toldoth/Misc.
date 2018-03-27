@@ -1,2 +1,6 @@
-Pull.py pulls images from a downloaded html file, Ive only tested
-it slightly so expect bugs.
+To use pull.py you must download a webpage(right click, save as), then running
+the script on said html file. Pull.py will get the locations of the images from
+the html file, the benifit of using this over just using the folder with the images
+is that this script put them in the order they apear in html. Ive only tested
+it slightly and on linux so expect bugs, I used no platform specific codes.
+This is python3 btw.
