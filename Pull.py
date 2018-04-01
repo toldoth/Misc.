@@ -34,6 +34,6 @@ skip = int(input(">>>"))
 
 i = 0
 while(i < len(Input)):
-	pull(Input[0], folder, skip)
+	pull(Input[i], folder, skip)
 	i += 1
 print("***COMPLETE***")
