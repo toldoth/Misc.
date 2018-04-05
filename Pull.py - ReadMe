@@ -4,3 +4,6 @@ the html file, the benifit of using this over just using the folder with the ima
 is that this script put them in the order they apear in html. Ive only tested
 it slightly and on linux so expect bugs, I used no platform specific codes.
 This is python3 btw.
+
+This script is meant to be used as a template and isnt by any means complete or
+fully functional, as title including "Fractional" would indicate
