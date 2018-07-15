@@ -338,10 +338,13 @@ while(i<len(ls)):
 i = 0
 while(i < len(vids)):
 	if("'" in vids[i]):
-		temp = os.popen('mediainfo "' + vids[i] + '"').read().split(" pixels", 3)
+		termOut = os.popen('mediainfo "' + vids[i] + '"').read()
 	else:
-		temp = os.popen("mediainfo '" + vids[i] + "'").read().split(" pixels", 3)
+		termOut = os.popen("mediainfo '" + vids[i] + "'").read()
+	tempo = "tempo"
+	tempo = termOut.split("Duration", 1)[1].split(":", 1)[1].split("\n", 1)[0]
+	temp = termOut.split(" pixels", 3)
 	Temp = temp[0].split("Width",1)[1].split(": ")[1]
 	TEmp = temp[1].split("Height",1)[1].split(": ")[1]
-	print(vids[i] + ":    " + Temp + ", " + TEmp)
+	print(vids[i] + ":    " + Temp + ", " + TEmp + " | " + tempo)
 	i += 1
