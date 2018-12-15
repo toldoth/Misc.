@@ -1,7 +1,6 @@
-# Ver.1.3 Update Notes
-# ~Video details are all aligned regardless of name lengths and if a name is too long the program will switch to a different layout
-# ~Vinfo now determines whether a file is a video from the tag on the file by default but may be changed back to scanning if each file is a video by uncommenting line 63 and commenting line 64, to switch to a full search
-# ~Speed has also been greatly improved in the full search by detecting a bug, previously each directory was also scanned by mediainfo which resulted in an insane about of time checking if a directory was a video
+# Ver.1.31 Update Notes
+# Added notifier if file is incomplete
+print("vinfo v1.31")
 import os
 import sys
 if(not len(os.popen("mediainfo --help").read().split("\n", 5)) is 6):
@@ -76,6 +75,7 @@ while(i < len(vids)):
 i = 0
 while(i < len(vids)):
 	if(termsLogged):
+		sleep(.5)
 		termOut = termOuts[i]
 	else:
 		termOut = os.popen("mediainfo " + nameFormat(vids[i])).read()
@@ -84,10 +84,13 @@ while(i < len(vids)):
 		temp = termOut.split(" pixels", 3)
 		width = temp[0].split("Width",1)[1].split(": ")[1]
 		height = temp[1].split("Height",1)[1].split(": ")[1]
+		complete = ""
+		if("IsTruncated" in termOut):
+			complete = "\033[91m\033[1m  Incomplete\033[0m"
 		if(longest < 20):
-			print(vids[i] + ": " + space[0:longest - len(vids[i])] + width + ", " + height + " | " + tempo)
+			print(vids[i] + ": " + space[0:longest - len(vids[i])] + width + ", " + height + " | " + tempo +  complete)
 		else:
-			print(vids[i] + ":\n" + width + ", " + height + " | " + tempo + "\n")
+			print(vids[i] + ":\n" + width + ", " + height + " | " + tempo + complete + "\n")
 	except:
 		pass
 	i += 1
