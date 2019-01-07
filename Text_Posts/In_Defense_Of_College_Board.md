@@ -4,6 +4,7 @@ In Defense Of College Board
 
 If you haven't yet read the article, go read it [here](www.theroot.com/college-board-under-fire-for-deciding-black-student-did-1831469686)
 
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this article, Natalie(the author) tries to act like this woman's SAT scores were deemed invalid because of her race. What nonsense, her score increased by 300 points! The author must not have ever taken the SATs herself, because typically scores don't change much from test to test. So I think it's perfectly understandable that they suspect her of cheating. And if she didn't cheat, why doesn't she just take another retest to prove them wrong?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Then Natalie mentions that the SATs, "has been notorious for race and income inequality". It seems like she's implying that College Board scores people lower because they're poor or are of a certain race, what nonsense. I can't believe people still fuss about this crap, it's not that hard to understand. Poor people tend to be less knowledgeable, it's common knowledge, I don't know what sort of lies she's been telling herself. People who went to better schools do better on the SATs, and black people tend to be more poor. It doesn't have anything to do with College Board discriminating.
