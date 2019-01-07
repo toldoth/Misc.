@@ -2,3 +2,5 @@
 Simple sorting algorithms that I coded in my free time.
 I've coded scripts for bubble sort, insertion sort and merge sort(bSort/iSort/mSort) in python
 I've also uploaded a graphical bubble sort and insertion sort scripts writen with pygame.
+
+For future referance, these were the first scripts I ever wrote, so don't be to harsh.
