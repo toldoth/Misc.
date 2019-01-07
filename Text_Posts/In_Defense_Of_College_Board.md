@@ -1,6 +1,6 @@
 In Defense Of College Board
 ===========================
-If you haven't yet read the article, go read it [here](www.theroot.com/college-board-under-fire-for-deciding-black-student-did-1831469686)
+If you haven't yet read the article, go read it [here](https://theroot.com/college-board-under-fire-for-deciding-black-student-did-1831469686)
 
 <br>
 
